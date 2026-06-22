@@ -128,3 +128,5 @@ The interface is accessible at `http://localhost:5173`.
 This project is not affiliated with, endorsed by, or associated with Riot Games. Teamfight Tactics is a trademark of Riot Games. Champion names, trait names, and game data referenced in this project belong to Riot Games. This tool is provided for educational and personal use only.
 
 The project is archived and will not receive further updates.
+This project is released under the MIT License. See LICENSE for details.
+
