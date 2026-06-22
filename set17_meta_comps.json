@@ -1,0 +1,166 @@
+{
+  "patch": "17.5b",
+  "meta_compositions": [
+    {
+      "id": "stargazer_xayah_sniper",
+      "name": "Stargazer Xayah (S-Tier - Sniper Version)",
+      "tier": "S",
+      "base_win_rate": 0.554,
+      "core_units": ["TFT17_Xayah", "TFT17_Gnar", "TFT17_Talon", "TFT17_Jax", "TFT17_Lulu", "TFT17_Nunu", "TFT17_Shen", "TFT17_TahmKench"],
+      "carries": ["TFT17_Xayah", "TFT17_Gnar"],
+      "tanks": ["TFT17_TahmKench", "TFT17_Shen"],
+      "synergies": {
+        "TFT17_Stargazer": 5,
+        "TFT17_RangedTrait": 2,
+        "TFT17_ResistTank": 2
+      },
+      "level_target": 8,
+      "flex_units": ["TFT17_Ezreal", "TFT17_Caitlyn"]
+    },
+    {
+      "id": "stargazer_xayah_bastion",
+      "name": "Stargazer Xayah (S-Tier - Bastion Frontline)",
+      "tier": "S",
+      "base_win_rate": 0.548,
+      "core_units": ["TFT17_Xayah", "TFT17_Gnar", "TFT17_Shen", "TFT17_Poppy", "TFT17_Rammus", "TFT17_Talon", "TFT17_Lulu", "TFT17_Nunu"],
+      "carries": ["TFT17_Xayah", "TFT17_Gnar"],
+      "tanks": ["TFT17_Shen", "TFT17_Rammus"],
+      "synergies": {
+        "TFT17_Stargazer": 4,
+        "TFT17_ResistTank": 4,
+        "TFT17_RangedTrait": 2
+      },
+      "level_target": 8,
+      "flex_units": ["TFT17_Jax", "TFT17_Ornn"]
+    },
+    {
+      "id": "vex_fast9_vanguard",
+      "name": "Vex Fast 9 (S-Tier - Vanguard Version)",
+      "tier": "S",
+      "base_win_rate": 0.552,
+      "core_units": ["TFT17_Vex", "TFT17_Nunu", "TFT17_Bard", "TFT17_Blitzcrank", "TFT17_AurelionSol", "TFT17_Galio", "TFT17_Shen"],
+      "carries": ["TFT17_Vex", "TFT17_AurelionSol"],
+      "tanks": ["TFT17_Nunu", "TFT17_Blitzcrank"],
+      "synergies": {
+        "TFT17_VexUniqueTrait": 1,
+        "TFT17_ResistTank": 2,
+        "TFT17_ShieldTank": 2,
+        "TFT17_ManaTrait": 2
+      },
+      "level_target": 9,
+      "flex_units": ["TFT17_Sona", "TFT17_Zoe"]
+    },
+    {
+      "id": "vex_fast9_shepherd",
+      "name": "Vex Fast 9 (S-Tier - Shepherd/Voyager)",
+      "tier": "S",
+      "base_win_rate": 0.546,
+      "core_units": ["TFT17_Vex", "TFT17_IvernMinion", "TFT17_Poppy", "TFT17_Fizz", "TFT17_Corki", "TFT17_Bard", "TFT17_Nami", "TFT17_Blitzcrank"],
+      "carries": ["TFT17_Vex", "TFT17_Corki", "TFT17_Nami"],
+      "tanks": ["TFT17_IvernMinion", "TFT17_Poppy"],
+      "synergies": {
+        "TFT17_VexUniqueTrait": 1,
+        "TFT17_Astronaut": 5,
+        "TFT17_SummonTrait": 2
+      },
+      "level_target": 9,
+      "flex_units": ["TFT17_Lulu", "TFT17_Zoe"]
+    },
+    {
+      "id": "samira_reroll_groove",
+      "name": "Two Tanky Samira (S-Tier - Groove AD Carry)",
+      "tier": "S",
+      "base_win_rate": 0.542,
+      "core_units": ["TFT17_Samira", "TFT17_Ornn", "TFT17_Teemo", "TFT17_Nasus", "TFT17_Riven", "TFT17_Nami", "TFT17_Blitzcrank"],
+      "carries": ["TFT17_Samira", "TFT17_Teemo"],
+      "tanks": ["TFT17_Ornn", "TFT17_Riven"],
+      "synergies": {
+        "TFT17_SpaceGroove": 5,
+        "TFT17_RangedTrait": 2,
+        "TFT17_ResistTank": 2
+      },
+      "level_target": 7,
+      "flex_units": ["TFT17_Gwen", "TFT17_TahmKench"]
+    },
+    {
+      "id": "space_groove_nami",
+      "name": "Space Groove Nami (A-Tier - Groove AP Carry)",
+      "tier": "A",
+      "base_win_rate": 0.515,
+      "core_units": ["TFT17_Nami", "TFT17_Riven", "TFT17_Teemo", "TFT17_Nasus", "TFT17_Blitzcrank", "TFT17_Ornn", "TFT17_Gwen"],
+      "carries": ["TFT17_Nami", "TFT17_Gwen"],
+      "tanks": ["TFT17_Riven", "TFT17_Ornn"],
+      "synergies": {
+        "TFT17_SpaceGroove": 5,
+        "TFT17_APTrait": 2,
+        "TFT17_ResistTank": 2
+      },
+      "level_target": 8,
+      "flex_units": ["TFT17_Lissandra", "TFT17_Teemo"]
+    },
+    {
+      "id": "brawler_yi_psionic",
+      "name": "Brawler Master Yi (A-Tier - Melee Focus)",
+      "tier": "A",
+      "base_win_rate": 0.518,
+      "core_units": ["TFT17_MasterYi", "TFT17_TahmKench", "TFT17_Kindred", "TFT17_Gragas", "TFT17_RekSai", "TFT17_Maokai", "TFT17_ChoGath"],
+      "carries": ["TFT17_MasterYi", "TFT17_Kindred"],
+      "tanks": ["TFT17_TahmKench", "TFT17_Maokai"],
+      "synergies": {
+        "TFT17_HPTank": 4,
+        "TFT17_PsyOps": 2,
+        "TFT17_MeleeTrait": 2
+      },
+      "level_target": 8,
+      "flex_units": ["TFT17_Pyke", "TFT17_Urgot"]
+    },
+    {
+      "id": "dark_star_karma",
+      "name": "Dark Star Karma (A-Tier - AP Flex)",
+      "tier": "A",
+      "base_win_rate": 0.512,
+      "core_units": ["TFT17_Karma", "TFT17_Mordekaiser", "TFT17_Kaisa", "TFT17_ChoGath", "TFT17_Lissandra", "TFT17_Jhin", "TFT17_TahmKench"],
+      "carries": ["TFT17_Karma", "TFT17_Kaisa"],
+      "tanks": ["TFT17_Mordekaiser", "TFT17_TahmKench"],
+      "synergies": {
+        "TFT17_DarkStar": 6,
+        "TFT17_ManaTrait": 2,
+        "TFT17_FlexTrait": 2
+      },
+      "level_target": 8,
+      "flex_units": ["TFT17_AurelionSol", "TFT17_Galio"]
+    },
+    {
+      "id": "dark_star_jhin",
+      "name": "Dark Star Jhin (A-Tier - AD Vertical)",
+      "tier": "A",
+      "base_win_rate": 0.508,
+      "core_units": ["TFT17_Jhin", "TFT17_Mordekaiser", "TFT17_Karma", "TFT17_Kaisa", "TFT17_ChoGath", "TFT17_Lissandra", "TFT17_Shen", "TFT17_Caitlyn"],
+      "carries": ["TFT17_Jhin", "TFT17_Kaisa", "TFT17_Caitlyn"],
+      "tanks": ["TFT17_Mordekaiser", "TFT17_Shen"],
+      "synergies": {
+        "TFT17_DarkStar": 4,
+        "TFT17_RangedTrait": 2,
+        "TFT17_ResistTank": 2
+      },
+      "level_target": 8,
+      "flex_units": ["TFT17_Aatrox", "TFT17_Kindred"]
+    },
+    {
+      "id": "meeple_gnar_printer",
+      "name": "Meeple Gnar Printer (S-Tier - Astro Reroll)",
+      "tier": "S",
+      "base_win_rate": 0.548,
+      "core_units": ["TFT17_Gnar", "TFT17_IvernMinion", "TFT17_Ezreal", "TFT17_Poppy", "TFT17_Veigar", "TFT17_Fizz", "TFT17_Rammus"],
+      "carries": ["TFT17_Gnar", "TFT17_Ezreal"],
+      "tanks": ["TFT17_IvernMinion", "TFT17_Poppy"],
+      "synergies": {
+        "TFT17_Astronaut": 5,
+        "TFT17_RangedTrait": 2,
+        "TFT17_ResistTank": 2
+      },
+      "level_target": 6,
+      "flex_units": ["TFT17_Corki", "TFT17_Bard"]
+    }
+  ]
+}
