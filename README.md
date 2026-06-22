@@ -8,7 +8,19 @@
 
 **Status: Archived. This project is no longer actively maintained.**
 
-A locally-hosted coaching tool for Teamfight Tactics (Set 17: Space Gods) that provides real-time board analysis, synergy recommendations, economy guidance, and optimal item suggestions. All processing runs on the local machine. No game client memory is read, no overlays are injected, and no visual OCR is used. The tool operates entirely through a manual input interface.
+A locally-hosted coaching tool for Teamfight Tactics (Set 17: Space Gods) that provides real-time board analysis, synergy recommendations, economy guidance, and optimal item suggestions. All processing happens locally—no external APIs or telemetry.
+
+---
+
+## Features
+
+- **Meta Composition Scoring** — Analyzes your current board against high-ELO meta compositions and ranks potential pivots by fit score.
+- **Synergy Engine** — Generates flexible team-building pathways based on active trait counts when no direct meta match is found.
+- **Item Optimization** — Recommends optimal item placements for carry and tank units based on game state and trait synergies.
+- **Economy & Level Guidance** — Provides economical decision guidance (rolling frequency, level-up timing) based on your gold and player level.
+- **Bench-to-Board Suggestions** — Identifies high-impact unit swaps from bench to board to maximize synergies.
+- **Live Meta Fallback** — Attempts to fetch community meta data at startup; falls back to bundled Set 17 meta list if unavailable.
+- **AI Reasoning Log** — View the engine's internal decision-making steps for each analysis.
 
 ---
 
@@ -16,7 +28,7 @@ A locally-hosted coaching tool for Teamfight Tactics (Set 17: Space Gods) that p
 
 This project was built as a personal learning exercise in game-state decision modelling. It is published here as a completed, archived reference implementation.
 
-Riot Vanguard's strict anti-cheat enforcement makes any form of automated screen capture or process attachment infeasible without risk of account action. This tool deliberately avoids any such approach. The user inputs their board state manually through the web interface, and the backend engine produces coaching output from that data alone.
+Riot Vanguard's strict anti-cheat enforcement makes any form of automated screen capture or process attachment infeasible without risk of account action. This tool deliberately avoids any such approach, instead relying on manual board entry.
 
 ---
 
@@ -51,7 +63,7 @@ tft-companion/
   - **Meta Compiler** — scores current board units against known high-ELO meta compositions using weighted ownership and contestation penalties.
   - **Procedural Synergy Engine** — generates flexible team-building pathways from active trait counts when no strong meta match is found.
 - Economy and levelling guidance is derived from gold, player level, and current stage.
-- `server.py` wraps the engine in a WebSocket server listening on `ws://127.0.0.1:8000`. On connection it pushes the full champion list to the frontend. It then listens for board state payloads and replies with analysis results.
+- `server.py` wraps the engine in a WebSocket server listening on `ws://127.0.0.1:8000`. On connection it pushes the full champion list to the frontend. It then listens for board state payloads and returns analysis results in real time.
 
 ### Frontend (`frontend/`)
 
@@ -131,8 +143,7 @@ The interface is accessible at `http://localhost:5173`.
 
 ## Disclaimer
 
-This project is not affiliated with, endorsed by, or associated with Riot Games. Teamfight Tactics is a trademark of Riot Games. Champion names, trait names, and game data referenced in this project belong to Riot Games. This tool is provided for educational and personal use only.
+This project is not affiliated with, endorsed by, or associated with Riot Games. Teamfight Tactics is a trademark of Riot Games. Champion names, trait names, and game data referenced in this project belong to Riot Games.
 
 The project is archived and will not receive further updates.
 This project is released under the MIT License. See LICENSE for details.
-
