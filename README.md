@@ -1,3 +1,9 @@
+<img width="1365" height="635" alt="image" src="https://github.com/user-attachments/assets/13357277-fb73-4428-9b33-20161e3bf5e8" />
+
+<img width="1365" height="632" alt="image" src="https://github.com/user-attachments/assets/cfdc9766-e104-4997-92e4-f521cb8f24e2" />
+
+
+
 # TFT Companion — Set 17 Decision Engine
 
 **Status: Archived. This project is no longer actively maintained.**
